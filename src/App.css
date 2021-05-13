@@ -1,0 +1,367 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*aqui va el logo de sony*/
+
+.Logo{
+  width: 100%;
+  box-sizing: border-box;
+  height: 2.3rem;
+  background-color: black;
+}
+
+.Logo img{
+  height: 37px;
+  width: auto;
+  position: absolute;
+  right: 10px;
+}
+
+
+/*aqui se coloca el header*/
+.Header{
+  width: 100%;
+  color:dimgray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 2rem 0 2rem;
+}
+
+.Header img{
+  height: 30px;
+  width: auto;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.Header .titleOption {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.Header p{
+  margin: 10px
+}
+
+
+
+.Header2{
+  position: absolute;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Header2 button{
+
+  box-sizing: border-box;
+  
+  margin: 0.5rem 0rem;
+  border-radius: 1rem;
+  color: white;
+  background-color:  #363636;
+}
+
+.Header2 img{
+  height: 20px;
+  width: auto;
+  margin-top: 10px;
+}
+
+
+/*aqui va el navbar*/
+.Nav{
+  width: 100%;
+  color:dimgray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 2rem 0 2rem;
+}
+
+.Nav img{
+  height: 48px;
+  width: auto;
+  padding: 0 2rem 2rem 3rem;
+}
+
+.Nav p{
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+.Nav .options{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color:black ;
+  font-weight: bolder;
+  position:absolute;
+  right: 470px;
+}
+
+/*Aqui va el banner*/
+
+.Banner{
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 2rem 0 2rem;
+}
+
+.Banner img{
+  height: 600px;
+  width: 100%;
+}
+
+.Banner .text{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 2rem 0 2rem;
+  
+}
+
+.Banner button{
+  background-color: #2175ad;
+  border-radius:28px;
+	border:1px solid #2175ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding: 5px 10px 5px 10px;
+	text-decoration:none;
+	color: white;
+
+  position: absolute;
+  
+  right: 100px;
+}
+
+
+/*aqui van los mozaicos*/
+
+.mozaico{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+/*aqui va el primer carusel*/
+
+.TheCarusel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.NavTitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 80rem;
+}
+
+.NavTitle a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #0172ce;
+  font-weight: 500;
+}
+
+.NTitle{
+  color: #363636;
+  font-weight: 300;
+  font-size: 2.7rem;
+}
+
+.CardCarusel {
+  margin: 1rem auto;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardCarusel img{
+  width: 100%;
+}
+
+.CardCarusel h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.Price{
+  color: #363636;
+}
+
+.Games{
+  margin: 1rem;
+
+  text-decoration: none;
+  color: #0172ce;
+  width: 12rem;
+  height: 12rem;
+  border: 0.1rem solid #0172ce;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Aqui va el segundo carusel*/
+.TheCarusel2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.NavTitle2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 80rem;
+}
+
+.NavTitle2 a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #0172ce;
+  font-weight: 500;
+}
+
+.NTitle2{
+  color: #363636;
+  font-weight: 300;
+  font-size: 2.7rem;
+}
+
+.CardCarusel2 {
+  margin: 1rem auto;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardCarusel2 img{
+  width: 100%;
+}
+
+.CardCarusel2 h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.Price{
+  color: #363636;
+}
+
+.Soon{
+  margin: 1rem;
+
+  text-decoration: none;
+  color: #0172ce;
+  width: 12rem;
+  height: 12rem;
+  border: 0.1rem solid #0172ce;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Aqui va la parte de more*/
+.More{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MoreTitle{
+  font-size: 2.7rem;
+}
+
+.MoreImg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.MoreImg img{
+  margin: 1rem auto;
+  height: 50%;
+  width: auto;
+}
+
+/*Aqui va el footer*/
+.footer {
+  width: 100%;
+  background-color: #00439c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerFooter {
+  padding: 5rem 5rem;
+  width: 75rem;
+}
+.footerHeader {
+  width: 20rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerHeader img {
+  width: 4rem;
+}
+.footerHeader h4 {
+  color: white;
+  font-weight: 400;
+}
+.footerBody {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+.footerColum {
+  width: 20rem;
+  margin: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.footerColum a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  margin: 1rem 0rem;
+}
+.containerFooter p {
+  color: white;
+  text-align: center;
+}
